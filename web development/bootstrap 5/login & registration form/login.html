@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="container ">
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-4 offset-xl-4 text-center p-3">
+                <div class="logo">
+                  <img src="logo.png" class="rounded rounded img-fluid w-50">
+                </div>
+            <form class="rounded bg-white shadow p-5">
+                <h3 class="text-dark fw-bolder fs-4 mb-2">Sign In</h3>
+                <div class="fw-normal text-muted mb-4">
+                    New Here? <a href="Registration.html" class="text-primary fw-bold text-decoration-none">Create an Account</a>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                <div class="mt-2 text-end">
+                    <a href="#" class="text-primary fw-blod text-decoration-none">Forget Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
+                <div class="text center text-muted text-uppercase mb-3">or</div>
+                <a href="#" class="btn btn-light w-100 ">
+                    <img src="google.png" class=" rounded img-fluid login_with me-3 w-25" >Continue with Google
+                </a>
+                
+                <!--<a href="#" class="btn btn-light w-100 mb-3 mb-1">
+                    <img src="linkdin.png" class=" rounded img-fluid login_with me-3 w-25" >Continue with Linkdin
+                </a>-->
+            </form>   
+            </div>
+        </div>
+    </section>
+</body>
+</html>

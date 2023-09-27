@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="commitee.css">
+     <!--swiper js link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+     <!-- animate link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- bootstrap link-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <section id="container">
+        <!-- nav start -->
+        <div class="nav">
+            <!-- <div class="nav1"></div> -->
+            <div class="nav2">
+                <div class="d1">
+                    <div class="d11"><img src="https://idealab.ksrct.ac.in/wp-content/uploads/2023/07/Idea_Lab_logo-154x300.png" alt="idea lab logo" height="75" width="60"></div>
+                    <div class="d12">
+                        <h1>JISCE-IDEA Lab</h1>
+                    </div>
+                </div>
+                <div class="d2">
+                    <div class="menu1">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="index.html">Home</a>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="menu2">
+                        <i class="fa-solid fa-address-card"></i>
+                        
+                        <div class="dropdown">
+                            <a href="about.html"onclick="myFunction()" class="dropbtn">About</a>
+                            <i class="fa-solid fa-caret-down"></i>
+                              <div id="myDropdown" class="dropdown-content">
+                                <a href="about.html">About</a>
+                                <a href="commitee.html">Committee</a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="menu3">
+                        <i class="fa-solid fa-people-group"></i>
+                        <a href="work.html">Activities</a>
+                    </div>
+                    <div class="menu4">
+                        <i class="fa-solid fa-sun"></i>
+                        <a href="Equipment.html">Equipments</a>
+                    </div>
+                    <div class="menu5">
+                        <i class="fa-solid fa-image"></i>
+                        <a href="gallery.html">Gallery</a>
+                    </div>
+                    <div class="menu6">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+         <!-- nav end-->
+         <div class="inner-div0">
+            <div class="inner-div-1-1">
+                <h1 class="heading2">Commitee</h1>
+            </div>
+        </div>
+        <button class="tablink" onclick="openPage('Home', this, '#0563ba')">Advisory Board</button>
+        <button class="tablink" onclick="openPage('News', this, '#0563ba')" id="defaultOpen">Mentor/Joint Co-Ordinator</button>
+        <button class="tablink" onclick="openPage('Contact', this, '#0563ba')">Gurus</button>
+        <button class="tablink" onclick="openPage('About', this, '#0563ba')">Student Ambassador</button>
+
+        <div id="Home" class="tabcontent">
+            
+        <div class="details1">
+            <img src="images/mem1.jpg" alt="Avatar" class="image1">
+            <div class="overlay">
+            <div class="text">
+                <h4>Mr. Taranjit Singh</h4>
+                <p>MD, JIS GROUP</p>
+                <div id="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                   
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="member">
+            <div class="details2">
+                <img src="images/mem2.jpg" alt="Avatar" class="image1">
+                <div class="overlay">
+                <div class="text">
+                    <h4>Mr. Simerpreet Singh</h4>
+                    <p>Director, JIS GROUP</p>
+                    <div id="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                       
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="details2">
+                <img src="images/mem3.jpg" alt="Avatar" class="image1">
+                <div class="overlay">
+                <div class="text">
+                    <h4>Dr. Sila Singh Ghosh</h4>
+                    <p>VP, JIS GROUP & Resgistrar JISCE</p>
+                    <div id="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                       
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="details2">
+                <img src="images/mem16.jpg" alt="Avatar" class="image1">
+                <div class="overlay">
+                <div class="text">
+                    <h4>Dr. Neeraj Saxena</h4>
+                    <p>Adviser l, AICTE</p>
+                    <div id="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                       
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="News" class="tabcontent">
+            <div class="member4">
+                <div class="details8">
+                    <img src="images/mem4.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Dr. Partha Sarkar</h4>
+                        <p>Principal JISCE</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+                    <div class="details8">
+                        <img src="images/mem5.jpg" alt="Avatar" class="image1">
+                        <div class="overlay">
+                        <div class="text">
+                            <h4>Dr. Biswarup Neogi </h4>
+                            <p>HOD ECE & IIC
+                                Convener</p>
+                            <div id="icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                               
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            
+    
+              
+            </div>
+        
+
+        <div id="Contact" class="tabcontent">
+            <div class="member1">
+                <div class="details2">
+                    <img src="images/mem6.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Dr. Dibyendu Mondal 
+                        </h4>
+                        <p>BME</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="details2">
+                    <img src="images/mem7.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Dr. Sandip Ghosh 
+                        </h4>
+                        <p>ME</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="details2">
+                    <img src="images/mem8.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Dr. Moumita Pal 
+
+                        </h4>
+                        <p>ECE</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="member2">
+                <div class="details2">
+                    <img src="images/mem9.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Mr. Anirban Ghoshal 
+                        </h4>
+                        <p>ECE</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="details2">
+                    <img src="images/mem10.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Mr. Shishir Kumar Biswas </h4>
+                        <p>ME</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="details2">
+                    <img src="images/mem11.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Mr. Sudip Das</h4>
+                        <p>EE</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="details2">
+                    <img src="images/mem12.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Mr. Sumit Das </h4>
+                        <p>IT</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <div class="member3">
+                <div class="details2">
+                    <img src="images/mem13.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Harsh Kumar Shaw, CSE 
+                        </h4>
+                        <p>3rd year</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="details2">
+                    <img src="images/mem14.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Arka Rajak 
+                        </h4>
+                        <p>ECE, 2nd Year</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="details2">
+                    <img src="images/mem15.jpg" alt="Avatar" class="image1">
+                    <div class="overlay">
+                    <div class="text">
+                        <h4>Souvik Guha </h4>
+                        <p>ECE, 2nd Year</p>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                           
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+         </section>
+         <footer class="footer-div">
+            <section class="footer">
+                <div class="footer1">
+                   <div class="footer-img">
+                    <img src="images/idea-lab.png" alt="ideal logo">
+                    <img class="ab" src="images/jis-logo.png" alt="jis logo">
+                   </div>
+                    <h1>JISCE AICTE IDEA Lab</h1>
+                </div>
+                <div class="footer2">
+                    <div class="contain-1">
+                        <h1>Contact</h1>
+                    <div id="text-1">
+                        <a href="" class="fa-solid fa-location-dot"></a>
+                        <p>Barrackpore - Kalyani Expy, Block A5, Block A<br>Kalyani, West Bengal 741235</p>
+                    </div>
+                    <div id="text-1">
+                        <a href="" class="fa-solid fa-phone"></a>
+                        <p>Phone: +91 33 2289 3944/2289 5323</p>
+                    </div>
+                    <div id="text-1">
+                        <a href="" class="fa-solid fa-envelope"></a>
+                        <p>Email: info@jisgroup.org</p>
+                    </div>
+                    </div>
+                    <div class="contain-2">
+                        <h1>Follow us</h1>
+                        <div id="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </footer>
+ 
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                }
+            }
+            }
+            </script>
+            <script>
+                function openPage(pageName,elmnt,color) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablink");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                  }
+                  document.getElementById(pageName).style.display = "block";
+                  elmnt.style.backgroundColor = color;
+                }
+                
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+                </script>
+</body>
+</html>

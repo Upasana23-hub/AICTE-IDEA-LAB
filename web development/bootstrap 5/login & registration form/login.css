@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .submit_btn{
+    padding:15px;
+    font-weight: 500;
+}
+.wrapper .login_with{
+    padding:15px;
+    font-size: 15px;
+    font-weight: 500;
+}

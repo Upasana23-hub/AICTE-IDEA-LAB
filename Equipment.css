@@ -116,7 +116,7 @@
   
   .show {display: block;}
   .outer-div1{
-    height: 400vh;
+    height: 325vh;
     width: 95%;
     background-color: rgb(255, 255, 255);
     padding-left: 2%;
@@ -162,13 +162,13 @@ margin-top: 10vh;
 position: relative;
 margin-left: 80%;
 width: 10%;
-height: 10vh;
+height: 20vh;
 }
 .image1 img{
 position: relative;
 margin-left: 6%;
 width: 10%;
-height: 10vh;
+height: 20vh;
 }
 .inner-div2{
 height: 60vh;
@@ -188,21 +188,9 @@ width: 100%;
 margin-top: 10vh;
 display: flex;
 }
-.inner-div5{
-height: 60vh;
-width: 100%;
-margin-top: 10vh;
-display: flex;
-}
-.inner-div6{
-height: 60vh;
-width: 90%;
-background-color: rgb(251, 255, 0);  
-margin-top: 10vh;
-display: flex;
-}
+
 .box1{
-        height: 50vh;
+        height: 55vh;
         width: 50%;
         background-color:#1ca1e3;
         margin-left: 4%;
@@ -249,7 +237,7 @@ margin-top: 4vh;
 box-shadow:5px 5px 5px 5px #858585 ; */
 }
 .box8{
-        height: 50vh;
+        height: 55vh;
         width: 50%;
         background-color:#1ca1e3;
         margin-left: 4%;
@@ -394,6 +382,7 @@ border-radius: 10px;
 .footer-div{
     height: 15rem;
     width: 100%;
+    margin-top: 20vh;
   }
   .footer{
     width:100%;
